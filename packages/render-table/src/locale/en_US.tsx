@@ -1,0 +1,20 @@
+export default {
+  tableToolBar: {
+    defaultTitle: 'Table',
+    expand: 'open',
+    notExpand: 'pack up',
+    columnSetting: 'column setting',
+    refresh: 'refresh',
+    leftFixedTitle: 'Fixed the left',
+    rightFixedTitle: 'Fixed the right',
+    noFixedTitle: 'Not Fixed',
+    columnDisplay: 'Column Display',
+    columnSettingTip: 'Drag to adjust order',
+    fullScreen: 'Full Screen',
+    exitFullScreen: 'Exit Full Screen',
+    density: 'Density',
+    densityDefault: 'Default',
+    densityMiddle: 'Middle',
+    densitySmall: 'Compact',
+  },
+}

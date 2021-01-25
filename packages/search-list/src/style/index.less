@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import '~@vins-rc/react-theme/src/theme.less';
+
+.search-list {
+  border-top: 1px solid transparent;
+  .expand-wrap {
+    &:not(:last-of-type) {
+      border-bottom: 1px dashed #f0f0f0;
+    }
+    margin-bottom: @base;
+    overflow: hidden;
+    &_handle {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: @base;
+    }
+    &_icon {
+      color: #1890ff;
+      font-size: 12px;
+      cursor: pointer;
+      .anticon {
+        margin-left: @base;
+      }
+    }
+  }
+
+  .search-form {
+    background: #fff;
+    padding: @padding-base;
+    margin: @margin-base @margin-base 0;
+    &_list {
+      overflow: hidden;
+    }
+
+    &_handle {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .ant-btn + .ant-btn {
+        margin-left: @base;
+      }
+
+      .expand-icon {
+        color: #1890ff;
+        cursor: pointer;
+        margin-left: @base;
+        .anticon {
+          margin-left: @base;
+        }
+      }
+    }
+  }
+
+  &_table {
+    margin: @margin-base @margin-base 0;
+    background: #fff;
+    .boss-render-table {
+      padding: @padding-base @padding-base 0;
+    }
+  }
+}

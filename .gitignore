@@ -1,0 +1,15 @@
+/node_modules
+/coverage
+/packages/*/node_modules
+/packages/*/.local
+/.local
+/packages/**/node_modules
+/.changelog
+npm-debug.log
+yarn-error.log
+dist
+/.vscode
+.eslintcache
+.now
+.DS_Store
+.history

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": true,
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "../../types",
+    "skipLibCheck": true,
+    "declarationMap": false,
+    "sourceMap": true,
+    "emitDeclarationOnly": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "scripts",
+    "example"
+  ]
+}

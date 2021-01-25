@@ -1,0 +1,63 @@
+{
+  "name": "@vins-rc/render-form",
+  "version": "1.4.0",
+  "description": "react component base on antd/sun/hookForm",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --config ./scripts/build/webpack.config.js",
+    "build": "tsc -p ./scripts/tsconfig/tsconfig.prod.json && webpack --profile --mode=production --config ./scripts/build/webpack.config.js",
+    "release": "npm publish --registry=https://registry-npm.tuya-inc.top  --scope=tuya-fe --always-auth",
+    "test": "jest"
+  },
+  "repository": "https://registry.code.tuya-inc.top/boss-react-components/boss-render-form.git",
+  "author": "vins <vins@tuya.com>",
+  "license": "MIT",
+  "typings": "./types/index.d.ts",
+  "devDependencies": {
+    "@vins/prettier-config": "^1.0.0",
+    "antd": "^4.0.1",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@typescript-eslint/eslint-plugin": "^2.28.0",
+    "@typescript-eslint/parser": "^2.28.0",
+    "autoprefixer": "^9.7.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "file-loader": "^6.0.0",
+    "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "html-webpack-plugin": "^4.2.0",
+    "jest": "^25.3.0",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.1.3",
+    "ts-jest": "^25.3.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@vins-rc/base-select": "^1.0.2",
+    "@vins-rc/date-picker": "^1.1.0",
+    "@vins-rc/trim-input": "^1.0.0"
+  }
+}

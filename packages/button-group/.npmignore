@@ -1,0 +1,13 @@
+build
+example
+node_modules
+public
+scripts
+publish.sh
+src
+.prettierrc
+.eslintrc.js
+
+*.config.js
+tsconfig.json
+yarn.lock

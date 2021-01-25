@@ -1,0 +1,20 @@
+export default {
+  tableToolBar: {
+    defaultTitle: '查询表格',
+    expand: '展开',
+    notExpand: '收起',
+    columnSetting: '列设置',
+    refresh: '刷新',
+    leftFixedTitle: '固定在左侧',
+    rightFixedTitle: '固定在右侧',
+    noFixedTitle: '不固定',
+    columnDisplay: '列展示',
+    columnSettingTip: '拖动可调整顺序',
+    fullScreen: '全屏',
+    exitFullScreen: '退出全屏',
+    density: '密度',
+    densityDefault: '默认',
+    densityMiddle: '中等',
+    densitySmall: '紧凑',
+  },
+}
